@@ -33,3 +33,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/first-test/node_modules
+/first-test/.next
+/first-test/.pnp
+/first-test/.pnp.js
+/first-test/.env
+
+/second-test/node_modules
+/second-test/.parcel-cache
+/second-test/dist
+
+
