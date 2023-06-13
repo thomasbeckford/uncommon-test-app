@@ -11,5 +11,9 @@ yarn
 Second, run dev server
 
 ```bash
-yarn dev
+yarn start
+```
+
+```
+Go to http://localhost:1234/
 ```

@@ -52,8 +52,8 @@ const Header = ({ result }: HeaderProps) => {
               <p className="text-center">•</p>
 
               <p className="text-[16px] w-fit	 text-uncommon-gray-600  flex items-center">
-                <p>{formattedDate}</p>
-                <p className="hidden md:inline-flex">{formattedString}</p>
+                <span>{formattedDate}</span>
+                <span className="hidden md:inline-flex">{formattedString}</span>
               </p>
             </div>
           </div>

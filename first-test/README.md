@@ -9,3 +9,7 @@ pnpm install
 ```bash
 pnpm dev
 ```
+
+```
+Go to http://localhost:3000/
+```

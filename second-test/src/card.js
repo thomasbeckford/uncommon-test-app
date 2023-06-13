@@ -2,15 +2,16 @@ import React, { useState, useEffect } from 'react'
 import { formatNumber } from './utils/formatNumber'
 import './card.css'
 
+// Set this on an env file
+const BASE_URL = 'https://uncommon-code-tests.herokuapp.com'
+
 const Card = () => {
   const [cardData, setCardData] = useState(null)
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          'https://uncommon-code-tests.herokuapp.com/collections/azuki-test'
-        )
+        const response = await fetch(`${BASE_URL}/collections/azuki-test`)
         const { result } = await response.json()
         setCardData(result)
       } catch (error) {
